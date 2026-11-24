@@ -1,20 +1,29 @@
 import { useEffect, useRef } from "react";
 import maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
-import { MN_OVERVIEW, cameraForNode, flyTo } from "../lib/camera.js";
+import {
+  MN_OVERVIEW,
+  cameraForNode,
+  cinematicZoom,
+  flyTo,
+} from "../lib/camera.js";
 
-const STYLE =
-  "https://tiles.openfreemap.org/styles/dark";
+const STYLE = "https://tiles.openfreemap.org/styles/dark";
 
 export default function MapStage({
   places,
   activeNode,
   placesById,
   onSelectPlace,
+  introToken,
+  onIntroComplete,
 }) {
   const containerRef = useRef(null);
   const mapRef = useRef(null);
   const markersRef = useRef([]);
+  const lastIntroToken = useRef(null);
+  const lastNodeId = useRef(null);
+  const introRunning = useRef(false);
 
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return;
@@ -29,7 +38,10 @@ export default function MapStage({
       attributionControl: true,
     });
 
-    map.addControl(new maplibregl.NavigationControl({ visualizePitch: true }), "bottom-left");
+    map.addControl(
+      new maplibregl.NavigationControl({ visualizePitch: true }),
+      "bottom-left",
+    );
     mapRef.current = map;
 
     return () => {
@@ -72,6 +84,11 @@ export default function MapStage({
         el.style.boxShadow = "none";
       }
 
+      if (place.pinStatus === "story" && place.id === "anoka-county") {
+        el.style.width = "12px";
+        el.style.height = "12px";
+      }
+
       el.addEventListener("click", () => onSelectPlace?.(place));
 
       const marker = new maplibregl.Marker({ element: el })
@@ -87,10 +104,33 @@ export default function MapStage({
     const place = placesById[activeNode.placeId];
     if (!place) return;
 
-    const run = () => flyTo(map, cameraForNode(activeNode, place));
+    const target = cameraForNode(activeNode, place);
+    const needIntro = introToken !== lastIntroToken.current;
+
+    const run = async () => {
+      if (needIntro) {
+        if (introRunning.current) return;
+        introRunning.current = true;
+        lastIntroToken.current = introToken;
+        lastNodeId.current = activeNode.id;
+        try {
+          await cinematicZoom(map, target, { skipIntro: false });
+          onIntroComplete?.();
+        } finally {
+          introRunning.current = false;
+        }
+        return;
+      }
+
+      if (introRunning.current) return;
+      if (lastNodeId.current === activeNode.id) return;
+      lastNodeId.current = activeNode.id;
+      await flyTo(map, target, 1800);
+    };
+
     if (map.isStyleLoaded()) run();
     else map.once("load", run);
-  }, [activeNode, placesById]);
+  }, [activeNode, placesById, introToken, onIntroComplete]);
 
   return <div className="map-stage" ref={containerRef} />;
 }

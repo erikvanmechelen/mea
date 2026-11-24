@@ -1,7 +1,18 @@
 import MediaPanel from "./MediaPanel.jsx";
 
-export default function NodeSidebar({ node, place, mediaItems }) {
+export default function NodeSidebar({
+  node,
+  place,
+  mediaItems,
+  chapterIndex,
+  chapterTotal,
+  onNext,
+  onPrev,
+}) {
   if (!node) return null;
+
+  const hasNext = chapterIndex < chapterTotal - 1;
+  const hasPrev = chapterIndex > 0;
 
   return (
     <aside className="sidebar" aria-label="Story node detail">
@@ -32,7 +43,7 @@ export default function NodeSidebar({ node, place, mediaItems }) {
       {node.links?.length ? (
         <ul className="link-list">
           {node.links.map((link) => (
-            <li key={link.url}>
+            <li key={`${link.url}-${link.label}`}>
               <a href={link.url} target="_blank" rel="noreferrer">
                 {link.label}
               </a>
@@ -40,6 +51,15 @@ export default function NodeSidebar({ node, place, mediaItems }) {
           ))}
         </ul>
       ) : null}
+
+      <div className="sidebar-nav">
+        <button type="button" className="ghost-btn" onClick={onPrev} disabled={!hasPrev}>
+          Previous
+        </button>
+        <button type="button" className="next-chapter" onClick={onNext} disabled={!hasNext}>
+          {hasNext ? "Next chapter →" : "End of story"}
+        </button>
+      </div>
     </aside>
   );
 }

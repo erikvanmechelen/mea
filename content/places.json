@@ -17,7 +17,7 @@
     "lat": 45.27,
     "lng": -93.24,
     "summary": "County elections administration; site of the 2024 paper-roster felony-threat letter and ACEIT local work.",
-    "pinStatus": "teaser",
+    "pinStatus": "story",
     "relatedStoryIds": ["oak-grove-paper-rosters"]
   },
   {
@@ -27,7 +27,7 @@
     "county": "Anoka",
     "lat": 45.3408,
     "lng": -93.3269,
-    "summary": "Pilot story: council chose paper check-in rosters; county pushback; court clarity sought in A26-0910.",
+    "summary": "Pilot story: council chose paper check-in rosters; county pushback; court clarity in A26-0910.",
     "pinStatus": "story",
     "relatedStoryIds": ["oak-grove-paper-rosters"]
   },
@@ -38,7 +38,7 @@
     "county": "Anoka",
     "lat": 45.2611,
     "lng": -93.45,
-    "summary": "Also canceled electronic poll pad agreements in favor of paper (teaser pin for v1).",
+    "summary": "Canceled electronic poll-pad agreement after the 2024 election (teaser). Pre-cancel Anoka–Ramsey poll-pad use agreement dated 2018.",
     "pinStatus": "teaser",
     "relatedStoryIds": ["oak-grove-paper-rosters"]
   },
@@ -49,8 +49,19 @@
     "county": "Hennepin",
     "lat": 44.9055,
     "lng": -93.7447,
-    "summary": "Earlier municipal decline of KNOWiNK e-poll pads (2016). Context for later chapters from Simon’s Sensors.",
+    "summary": "2016: declined e-poll pads after demo concerns and stayed on paper (Simon’s Sensors / Weible). Teaser for related-place history.",
     "pinStatus": "teaser",
     "relatedStoryIds": []
+  },
+  {
+    "id": "linwood-twp",
+    "name": "Linwood Township",
+    "kind": "township",
+    "county": "Anoka",
+    "lat": 45.35,
+    "lng": -93.1,
+    "summary": "Res. 2026-07 asserts municipal roster authority; followed through on paper in 2026 (teaser).",
+    "pinStatus": "teaser",
+    "relatedStoryIds": ["oak-grove-paper-rosters"]
   }
 ]

@@ -4,13 +4,16 @@ Participatory civic education for Minnesota elections **2026–2030**.
 
 Framing: consent of the governed; citizens take responsibility for the health of self-government. Seek common ground through **available data** and clear process education—not years of contention over unavailable information.
 
-## What this repo is
+## v0.9 demo (playable tonight)
 
-Interactive **story map** (intelligence-HUD flavor): cinematic zoom across Minnesota places, chaptered narrative nodes, per-node media, and a **moderated** citizen upload-request flow (Erik reviews before anything is published).
+Interactive **story map** with dark intelligence-HUD chrome:
 
-**v1 pilot story:** Oak Grove / ACEIT / paper rosters / felony threat letter / A26-0910.
-
-Product plan (approve in Project Library): ask the MEA Project for `docs/v1-architecture.md`.
+1. Cinematic zoom **Minnesota → Anoka → Oak Grove**
+2. Five ordered chapters (ACEIT educate → Res. 24-101 → felony letter → A26-0910 → urgency)
+3. Sidebar detail + **Next chapter**
+4. Real documents under `public/media/` (resolution, court orders, ACEIT deck/brief, felony-letter text extract)
+5. Upload-request stub (mailto; optional Formspree via `.env`)
+6. Teaser pins: Ramsey, St. Bonifacius, Linwood
 
 ## Quick start
 
@@ -28,7 +31,7 @@ npm run preview  # serve the build locally
 
 ## Content editing
 
-Story data lives in plain JSON (no database for v1):
+Story data lives in plain JSON (no database):
 
 | File | Purpose |
 |------|---------|
@@ -38,30 +41,29 @@ Story data lives in plain JSON (no database for v1):
 | `content/media.json` | Videos, PDFs, downloads |
 | `content/schema.md` | Field guide |
 
-After editing JSON, refresh the app. For public PDFs/images, put files under `public/media/` and set `media.src` to `/media/your-file.pdf`.
+Public PDFs/text: put files under `public/media/` and set `media.src` to `/media/your-file.pdf`.
 
 ## Upload requests (moderation)
 
 1. Visitors use **Request to contribute** on the map.
 2. Without `VITE_UPLOAD_FORM_ENDPOINT`, the form opens a **mailto** to Erik.
 3. With a Formspree/Getform URL in `.env` (see `.env.example`), submissions POST there.
-4. **Approve an upload:** verify source → add file under `public/media/` (or link) → add/update `content/media.json` and attach the media id on a node → commit and deploy.
+4. **Approve an upload:** verify source → add file under `public/media/` → update `content/media.json` + node → commit and deploy.
 
 Nothing auto-publishes.
 
-## Stack (v1)
+## Stack
 
 - Vite + React
 - MapLibre GL JS (OpenFreeMap dark basemap)
 - JSON content in-repo
-- Host later on Cloudflare Pages or Vercel from this GitHub repo
 
 ## Related public pages
 
-- [projectminnesota.com/local](https://projectminnesota.com/local) — local authority & resolutions
-- [erik.quest/2026](https://erik.quest/2026.html) — labeled mysteries / data limits
+- [projectminnesota.com/local](https://projectminnesota.com/local)
+- [erik.quest/2026](https://erik.quest/2026.html)
 - [ACEIT](https://www.aceit.vote)
 
 ## License / contributions
 
-Campaign materials and evidence may have separate rights. Contact Erik before redistributing documents. Code contributions via PR welcome after the v1 plan is locked.
+Campaign materials and evidence may have separate rights. Contact Erik before redistributing documents. Code contributions via PR welcome.

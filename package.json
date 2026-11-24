@@ -1,7 +1,7 @@
 {
   "name": "mea",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.9.0",
   "type": "module",
   "description": "Minnesota Election Awareness — interactive civic education map",
   "scripts": {

@@ -4,12 +4,12 @@
     "storyId": "oak-grove-paper-rosters",
     "chapter": 1,
     "title": "ACEIT brings the paper-roster case to council",
-    "dateLabel": "2024 (workshop / council education)",
+    "dateLabel": "2024-01-29",
     "placeId": "oak-grove",
     "summary": "Anoka County Election Integrity Team (ACEIT) educates Oak Grove officials on why paper check-in rosters are lawful, auditable, and under local control—and how electronic poll pads change the information picture on Election Day.",
-    "detail": "Refine exact workshop date when Jan 2024 materials are available. ACEIT later published a statutes video arguing the county misread poll-pad law.",
+    "detail": "ACEIT deck title: “Achieving Home-Grown Elections in Anoka County.” Erik attended (Simon’s Sensors Ch. 3). Goals include paper poll books under §201.225 and recommended municipal resolutions.",
     "evidenceTier": ["documented"],
-    "mediaIds": ["aceit-statutes-video", "aceit-collin-brief"],
+    "mediaIds": ["aceit-oak-grove-deck", "aceit-statutes-video", "aceit-collin-brief"],
     "links": [
       { "label": "ACEIT", "url": "https://www.aceit.vote" },
       {
@@ -25,12 +25,12 @@
     "storyId": "oak-grove-paper-rosters",
     "chapter": 2,
     "title": "Oak Grove votes for paper",
-    "dateLabel": "Sept 2024",
+    "dateLabel": "2024-09-30",
     "placeId": "oak-grove",
-    "summary": "City Council passes a 4–0 resolution to switch back to paper poll books. Other Anoka cities, including Ramsey, move in the same direction.",
-    "detail": "Sample cancel-e-poll-pad resolutions are published for towns and cities on projectminnesota.com/local.",
+    "summary": "City Council adopts Resolution 24-101 (4–0 per ACEIT) to terminate the Anoka electronic-roster agreement and return to paper poll books. Ramsey later cancels after the 2024 election (teaser pin).",
+    "detail": "Res. 24-101 cites §201.225 (municipality may use e-rosters; not mandated) and gives notice of intent to use paper. Later Res. 2025-032 renews the discontinue path.",
     "evidenceTier": ["proven"],
-    "mediaIds": ["aceit-collin-brief"],
+    "mediaIds": ["oak-grove-res-24-101", "aceit-collin-brief"],
     "links": [
       {
         "label": "Local resolutions & authority",
@@ -45,15 +45,15 @@
     "storyId": "oak-grove-paper-rosters",
     "chapter": 3,
     "title": "County letter threatens felonies for paper",
-    "dateLabel": "Oct 2024",
+    "dateLabel": "Late Oct 2024",
     "placeId": "anoka-county",
-    "summary": "Anoka County Elections sends a multi-page unsigned letter warning precinct head judges that using paper poll pads could mean felony exposure. Later process questions about authorship and signing are labeled as questions, not conclusions.",
-    "detail": "Host or link the letter only after Erik clears the PDF for public use.",
+    "summary": "Anoka County Elections sends a multi-page unsigned letter to precinct head judges warning that using paper poll pads could mean felony exposure. Later process questions about authorship and signing are labeled as questions, not conclusions.",
+    "detail": "Library hosts an ODT transcription extract (not the original county PDF). ACEIT/Sensors: Elections Manager Tom Hunt later acknowledged sending it on behalf of Auditor Pam LeBlanc (~6 months later; verbal report to Erik, not a dated transcript).",
     "evidenceTier": ["documented", "question"],
-    "mediaIds": ["aceit-collin-brief"],
+    "mediaIds": ["anoka-felony-letter-extract", "aceit-collin-brief"],
     "links": [
       {
-        "label": "ACEIT / media brief context",
+        "label": "ACEIT",
         "url": "https://www.aceit.vote"
       }
     ],
@@ -64,14 +64,19 @@
     "id": "og-a26-0910",
     "storyId": "oak-grove-paper-rosters",
     "chapter": 4,
-    "title": "Courts asked to clarify municipal choice",
-    "dateLabel": "May 2026 → ongoing",
+    "title": "Courts clarify municipal roster choice",
+    "dateLabel": "2026-09-11",
     "placeId": "oak-grove",
-    "summary": "Upper Midwest Law Center petition to the Minnesota Supreme Court (A26-0910) seeks clarity that municipalities may choose paper or electronic rosters. Educational focus: what statutes say versus what staff asserted.",
-    "detail": "Add docket and filing links when Erik confirms which materials may be linked or hosted.",
-    "evidenceTier": ["documented"],
-    "mediaIds": ["aceit-collin-brief"],
-    "links": [],
+    "summary": "In City of Oak Grove v. Simon (A26-0910), the Minnesota Supreme Court holds that under §201.225 the municipality—not the county—decides paper vs electronic voter rosters. Oak Grove may use paper for the Nov 2026 general. Opinion to follow.",
+    "detail": "UMLC petition (May 2026) opened the path. Aug 11 scheduling order set oral argument for Sept 8. Court expresses no view on prosecuting city staff under §204B.44.",
+    "evidenceTier": ["proven", "documented"],
+    "mediaIds": ["a26-0910-merits-order", "a26-0910-sched-order", "aceit-collin-brief"],
+    "links": [
+      {
+        "label": "erik.quest 2026 (A26-0910 notes)",
+        "url": "https://erik.quest/2026.html"
+      }
+    ],
     "camera": { "zoom": 11.5, "pitch": 48, "bearing": -5 },
     "connections": ["og-felony-letter", "og-urgency"]
   },
@@ -83,9 +88,9 @@
     "dateLabel": "Now (2026–2030)",
     "placeId": "oak-grove",
     "summary": "Compare the 2023 electronic-tabulator lock-in pattern: once statutes harden a practice, local choice shrinks. Councils and citizens who want auditable paper check-in should move while statutes still leave room—and ask auditors for the data that is public. Clearer published data is common ground.",
-    "detail": "Next local steps: sample resolutions, attending council, and public-record how-tos (phase v2).",
+    "detail": "Peers: Ramsey canceled e-pads after 2024; Linwood followed through on paper in 2026. Broader Anoka precinct paper-vs-e list for Nov 2026 is still an open question.",
     "evidenceTier": ["documented", "question"],
-    "mediaIds": [],
+    "mediaIds": ["aceit-collin-brief"],
     "links": [
       {
         "label": "What local governments can do",

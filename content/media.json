@@ -1,18 +1,58 @@
 [
   {
+    "id": "aceit-oak-grove-deck",
+    "kind": "pdf",
+    "title": "ACEIT presentation to Oak Grove (Jan 29, 2024)",
+    "src": "/media/20240129_ACEIT_Presentation_Oak_Grove.pdf",
+    "credit": "Anoka County Election Integrity Team",
+    "licenseNote": "Public demo copy from Project Library."
+  },
+  {
     "id": "aceit-statutes-video",
     "kind": "video",
     "title": "ACEIT: county misreading of poll pad statutes",
     "src": "https://www.youtube.com/watch?v=dG9-QL25KP4",
     "credit": "ACEIT",
-    "licenseNote": "External YouTube embed; confirm reuse terms before download mirroring."
+    "licenseNote": "External YouTube embed."
   },
   {
     "id": "aceit-collin-brief",
     "kind": "pdf",
     "title": "ACEIT media brief — poll pads & SOS (Collin)",
-    "src": "",
+    "src": "/media/ACEIT_NoPollPads_Collin_20260531.pdf",
     "credit": "Anoka County Election Integrity Team",
-    "licenseNote": "Copy into public/media/ after Erik clears public hosting. Placeholder src until then."
+    "licenseNote": "Public demo copy from Project Library."
+  },
+  {
+    "id": "oak-grove-res-24-101",
+    "kind": "pdf",
+    "title": "Oak Grove Resolution 24-101 (Sept 30, 2024)",
+    "src": "/media/Oak_Grove_Resolution_24-101.pdf",
+    "credit": "City of Oak Grove",
+    "licenseNote": "Signed scan; host OK for v0.9 demo."
+  },
+  {
+    "id": "anoka-felony-letter-extract",
+    "kind": "file",
+    "title": "Anoka felony-threat letter (text extract)",
+    "src": "/media/anoka-felony-letter-extract.txt",
+    "credit": "Anoka County Elections Department (Library ODT transcription)",
+    "licenseNote": "Not the original county PDF/scan. Host OK per Erik. Transcription artifacts preserved."
+  },
+  {
+    "id": "a26-0910-merits-order",
+    "kind": "pdf",
+    "title": "A26-0910 merits order (Sept 11, 2026)",
+    "src": "/media/A26-0910_2026-09-14-Order.pdf",
+    "credit": "Minnesota Supreme Court",
+    "licenseNote": "Filed order; host OK. Filename stamped 2026-09-14; order dated Sept 11."
+  },
+  {
+    "id": "a26-0910-sched-order",
+    "kind": "pdf",
+    "title": "A26-0910 scheduling order (Aug 11, 2026)",
+    "src": "/media/A26-0910_2026-08-11-Order.pdf",
+    "credit": "Minnesota Supreme Court",
+    "licenseNote": "Sets oral argument 2026-09-08; same docket."
   }
 ]
