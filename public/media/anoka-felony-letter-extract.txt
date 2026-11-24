@@ -1,0 +1,54 @@
+# Anoka County Elections — unsigned felony-threat memo (text extract)
+
+Source: docs/sources/anoka_felony_letter.odt
+Extracted: 2026-11-24 (America/Chicago) via content.xml (OpenDocument)
+ODT meta: creator "Erik v"; creation-date 2026-05-03; page-count 3; word-count 1206
+SHA256 (ODT): e7cad75c0877f0ce597df6c6dcf65f84102f370b3a5b58e1a0c1481664bccc1b
+Note: Library file is an ODT transcription/reproduction, not the original county PDF/scan.
+Preserve source spelling/punctuation as transcribed; do not treat as court-certified original.
+
+---
+
+Anoka County
+
+PROPERTY RECORDS & TAXATION DEPARTMENT
+
+Elections & Voter Registration
+
+TO: HEAD ELECTION JUDGES FOR THE 2024 GENERAL ELECTION
+
+FROM: ANOKA COUNTY ELECTIONS DEPARTMENT
+
+As you prepare for next week's election, the Anoka County Elections Department wishes to provide you with some additional information regarding the use of electronic pollbooks in Anoka County polling places. There has been some discussion this year in various cities about a desire to use paper rosters rather than the electronic pollbooks that Anoka County has used for many years. This memo will clarify the requirement that all precincts must use electronic pollbooks during the 2024 general election and give you information that you can use should anyone ask you to violate Minnesota election law.
+
+Minnesota Statute Section 201.225 governs the use of electronic rosters, otherwise known as electronic pollbooks. The relevant portion of that statute states as follows:
+
+A county, municipality, or school district may use electronic rosters for any election. In a county, municipality, or school district that uses electronic rosters, the head elections official may designate that some or all of the precincts use electronic rosters.
+
+Id. at Subd. 1.
+
+Anoka County has committed to the use of electronic rosters for the 2024 election. The 2024 election is a statewide election, and therefore the head elections official for purposes of Section 201.225 is the head elections official of Anoka County. Anoka County has long designated its County Auditor as the county's head elections official.
+
+In the official capacity as the head elections official, the Anoka County Auditor has determined that all precincts within Anoka County will use electronic pollbooks for the 2024 election. Pursuant to the ordinary process, the County Auditor notified the Secretary of State that Anoka County and all its precincts will use electronic rosters during the 2024 statewide election and that Anoka County's electronic rosters meet all the requirements imposed by Section 201.225. That final certification was due 30 days before the election. And Anoka County complied with this requirement. Now that the deadline for final certification has passed, the County Auditor does not have the ability or authority to change her mind in an effort to certify use of a different system, or to use different systems in different communities, for the 2024 election.
+
+Minnesota law does not give local government units working with the county the right to choose procedures different from the one certified by the county's head elections official during a statewide election. No city, school district, township, or individual wards or precincts may adopt procedures different that the one certified to the Secretary of State by the head elections official. The Minnesota Secretary of State has provided the following guidance to Anoka County:
+
+Under Minnesota law, the head election official for a county, municipality, or school district that uses electronic rosters may designate that some or all of the precincts may use electronic rosters. Minn. Stat. § 201.225, subd. 1. The head election official for state elections is the county auditor. Minnesota law makes clear this official is in charge of administering state general elections at the local level. See Minn. Stat. § 201.018 (making the county auditor the chief registrar of voters); Minn. Stat. § 204B.27, subd. 5 (stating that county auditors are responsible for training local election officials and elections judges); Minn. Stat. § 204D.11 (making the county auditor in charge of developing the state general election ballot).
+
+The reference to the duties of head election officials for municipalities and school district under the electronic roster statute is simply to make clear that officials charged with administering municipal elections under Chapter 205 and school district elections under Chapter 205A have the same authority to determine whether electronic rosters are used in those elections when they are held on different dates from the state general election.
+
+While I understand some have suggested that the prinipal election officials for counties, municipalities, and school districts each have the independent authority to determine the use of electronic rosters for their precincts, that is an unreasonable interpretation of Section 201.225. Such a result would suggest that county, municipal, and school district officials could issue contradictory orders to precincts in their respective jurisdictions, particularly when state, county, local, and school district races appear on the ballot together.
+
+Section 201.225 makes clear that there is a single head election official for purposes of determining the use of electronic rosters. Because county auditors have supervisory authority over local officials for the state general election, they are considered the head election official for purposes of this statute.
+
+End quote
+
+The law is clear that individual or local official decisions not to follow the head election official's directions and interference with the election process will result in serious legal trouble for those involved. Refusing or declining to follow the head election official's direction to use electronic rosters and pollbooks in all Anoka County precincts would constitute a violation of numerous Minnesota election laws. For election judges, Minnesota Statute Section 204C.41 provides that any election judge who refuses to perform a required act is guilty of a felony. Under Minnesota Statute Section 201.27, any “officer, deputy, clerk, or other employee” who refuses to comply with the election laws is also guilty of a felony.
+
+Minnesota law also imposes legal consequences on anyone who interferes with an election judge or other election official. Minnesota Statute §2011B.076 makes it a gross misdemeanor to improperly influence an election official with regard to that official's performance of their duties. In 2023, the Minnesota Legislature enacted Section 2011B.075, which also makes it a gross misdemeanor to interfere with the voting process through either intimidation or deceptive practices. Encouraging an election official to violate the procedures established by Anoka County's head elections official and certified to the Secretary of State would constitute a deceptive practice under Minnesota law.
+
+Minnesota Statute Section 201.275 provides that “If there is probable cause for instituting a prosecution, the county attorney shall proceed according to the generally applicable standards regarding the prosecutorial functions and duties of a county attorney.” This is a mandatory, non-discretionary duty. When there is probable cause of a violation and a good faith and reasonable belief that a criminal offense can be proved beyond reasonable doubt at the time of trial, the statute does not give the county attorney discretion to look the other way and ignore a violation of the election laws. If an investigation confirms that anyone has interfered with the use of electronic pollbooks in any Anoka County precinct during the 2024 election, the county attorney must prosecute the offender.
+
+While the county attorney can consider the generally applicable standards regarding the prosecutorial functions and duties of a county attorney, he cannot simply turn a blind eye to actual or threatened violations – regardless of his personal beliefs. Moreover, the civil attorneys in the county attorney's office also have an ongoing duty and responsibility to represent Anoka County Elections and the County Auditor in their efforts to administer and oversee free and fair elections throughout the county.
+
+Simply put, the overall legal advice that has been given to Anoka County Elections for the benefit and protection of local election officials land election judges for the 2024 election is to follow Minnesota law.
