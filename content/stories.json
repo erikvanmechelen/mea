@@ -1,0 +1,17 @@
+[
+  {
+    "id": "oak-grove-paper-rosters",
+    "title": "Oak Grove & paper rosters",
+    "subtitle": "Local choice, county pushback, and why the window matters",
+    "placeIds": ["oak-grove", "anoka-county", "ramsey-mn"],
+    "chapterNodeIds": [
+      "og-aceit-educate",
+      "og-council-vote",
+      "og-felony-letter",
+      "og-a26-0910",
+      "og-urgency"
+    ],
+    "framing": "Citizens and local officials share responsibility for auditable elections. Follow one Anoka County chain—education, a council vote for paper, a felony threat letter, a court case seeking clarity, and the urgency to act while municipal choice remains. Where public data is thin, we label questions as questions.",
+    "status": "published"
+  }
+]

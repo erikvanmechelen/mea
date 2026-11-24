@@ -1,0 +1,102 @@
+[
+  {
+    "id": "og-aceit-educate",
+    "storyId": "oak-grove-paper-rosters",
+    "chapter": 1,
+    "title": "ACEIT brings the paper-roster case to council",
+    "dateLabel": "2024 (workshop / council education)",
+    "placeId": "oak-grove",
+    "summary": "Anoka County Election Integrity Team (ACEIT) educates Oak Grove officials on why paper check-in rosters are lawful, auditable, and under local control—and how electronic poll pads change the information picture on Election Day.",
+    "detail": "Refine exact workshop date when Jan 2024 materials are available. ACEIT later published a statutes video arguing the county misread poll-pad law.",
+    "evidenceTier": ["documented"],
+    "mediaIds": ["aceit-statutes-video", "aceit-collin-brief"],
+    "links": [
+      { "label": "ACEIT", "url": "https://www.aceit.vote" },
+      {
+        "label": "Poll pad statutes video",
+        "url": "https://www.youtube.com/watch?v=dG9-QL25KP4"
+      }
+    ],
+    "camera": { "zoom": 11, "pitch": 45, "bearing": -20 },
+    "connections": ["og-council-vote"]
+  },
+  {
+    "id": "og-council-vote",
+    "storyId": "oak-grove-paper-rosters",
+    "chapter": 2,
+    "title": "Oak Grove votes for paper",
+    "dateLabel": "Sept 2024",
+    "placeId": "oak-grove",
+    "summary": "City Council passes a 4–0 resolution to switch back to paper poll books. Other Anoka cities, including Ramsey, move in the same direction.",
+    "detail": "Sample cancel-e-poll-pad resolutions are published for towns and cities on projectminnesota.com/local.",
+    "evidenceTier": ["proven"],
+    "mediaIds": ["aceit-collin-brief"],
+    "links": [
+      {
+        "label": "Local resolutions & authority",
+        "url": "https://projectminnesota.com/local"
+      }
+    ],
+    "camera": { "zoom": 12, "pitch": 50, "bearing": -10 },
+    "connections": ["og-aceit-educate", "og-felony-letter"]
+  },
+  {
+    "id": "og-felony-letter",
+    "storyId": "oak-grove-paper-rosters",
+    "chapter": 3,
+    "title": "County letter threatens felonies for paper",
+    "dateLabel": "Oct 2024",
+    "placeId": "anoka-county",
+    "summary": "Anoka County Elections sends a multi-page unsigned letter warning precinct head judges that using paper poll pads could mean felony exposure. Later process questions about authorship and signing are labeled as questions, not conclusions.",
+    "detail": "Host or link the letter only after Erik clears the PDF for public use.",
+    "evidenceTier": ["documented", "question"],
+    "mediaIds": ["aceit-collin-brief"],
+    "links": [
+      {
+        "label": "ACEIT / media brief context",
+        "url": "https://www.aceit.vote"
+      }
+    ],
+    "camera": { "zoom": 10, "pitch": 40, "bearing": 15 },
+    "connections": ["og-council-vote", "og-a26-0910"]
+  },
+  {
+    "id": "og-a26-0910",
+    "storyId": "oak-grove-paper-rosters",
+    "chapter": 4,
+    "title": "Courts asked to clarify municipal choice",
+    "dateLabel": "May 2026 → ongoing",
+    "placeId": "oak-grove",
+    "summary": "Upper Midwest Law Center petition to the Minnesota Supreme Court (A26-0910) seeks clarity that municipalities may choose paper or electronic rosters. Educational focus: what statutes say versus what staff asserted.",
+    "detail": "Add docket and filing links when Erik confirms which materials may be linked or hosted.",
+    "evidenceTier": ["documented"],
+    "mediaIds": ["aceit-collin-brief"],
+    "links": [],
+    "camera": { "zoom": 11.5, "pitch": 48, "bearing": -5 },
+    "connections": ["og-felony-letter", "og-urgency"]
+  },
+  {
+    "id": "og-urgency",
+    "storyId": "oak-grove-paper-rosters",
+    "chapter": 5,
+    "title": "Act while paper remains a local option",
+    "dateLabel": "Now (2026–2030)",
+    "placeId": "oak-grove",
+    "summary": "Compare the 2023 electronic-tabulator lock-in pattern: once statutes harden a practice, local choice shrinks. Councils and citizens who want auditable paper check-in should move while statutes still leave room—and ask auditors for the data that is public. Clearer published data is common ground.",
+    "detail": "Next local steps: sample resolutions, attending council, and public-record how-tos (phase v2).",
+    "evidenceTier": ["documented", "question"],
+    "mediaIds": [],
+    "links": [
+      {
+        "label": "What local governments can do",
+        "url": "https://projectminnesota.com/local"
+      },
+      {
+        "label": "2026 mysteries (data limits labeled)",
+        "url": "https://erik.quest/2026.html"
+      }
+    ],
+    "camera": { "zoom": 9.5, "pitch": 35, "bearing": 0 },
+    "connections": ["og-a26-0910"]
+  }
+]
