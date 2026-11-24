@@ -1,0 +1,18 @@
+[
+  {
+    "id": "aceit-statutes-video",
+    "kind": "video",
+    "title": "ACEIT: county misreading of poll pad statutes",
+    "src": "https://www.youtube.com/watch?v=dG9-QL25KP4",
+    "credit": "ACEIT",
+    "licenseNote": "External YouTube embed; confirm reuse terms before download mirroring."
+  },
+  {
+    "id": "aceit-collin-brief",
+    "kind": "pdf",
+    "title": "ACEIT media brief — poll pads & SOS (Collin)",
+    "src": "",
+    "credit": "Anoka County Election Integrity Team",
+    "licenseNote": "Copy into public/media/ after Erik clears public hosting. Placeholder src until then."
+  }
+]

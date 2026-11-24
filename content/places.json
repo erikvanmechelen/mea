@@ -1,0 +1,56 @@
+[
+  {
+    "id": "minnesota",
+    "name": "Minnesota",
+    "kind": "state",
+    "lat": 46.0,
+    "lng": -94.5,
+    "summary": "Statewide civic education focus for elections 2026–2030. Metro and surrounding counties first.",
+    "pinStatus": "planned",
+    "relatedStoryIds": ["oak-grove-paper-rosters"]
+  },
+  {
+    "id": "anoka-county",
+    "name": "Anoka County",
+    "kind": "county",
+    "county": "Anoka",
+    "lat": 45.27,
+    "lng": -93.24,
+    "summary": "County elections administration; site of the 2024 paper-roster felony-threat letter and ACEIT local work.",
+    "pinStatus": "teaser",
+    "relatedStoryIds": ["oak-grove-paper-rosters"]
+  },
+  {
+    "id": "oak-grove",
+    "name": "Oak Grove",
+    "kind": "city",
+    "county": "Anoka",
+    "lat": 45.3408,
+    "lng": -93.3269,
+    "summary": "Pilot story: council chose paper check-in rosters; county pushback; court clarity sought in A26-0910.",
+    "pinStatus": "story",
+    "relatedStoryIds": ["oak-grove-paper-rosters"]
+  },
+  {
+    "id": "ramsey-mn",
+    "name": "Ramsey",
+    "kind": "city",
+    "county": "Anoka",
+    "lat": 45.2611,
+    "lng": -93.45,
+    "summary": "Also canceled electronic poll pad agreements in favor of paper (teaser pin for v1).",
+    "pinStatus": "teaser",
+    "relatedStoryIds": ["oak-grove-paper-rosters"]
+  },
+  {
+    "id": "st-bonifacius",
+    "name": "St. Bonifacius",
+    "kind": "city",
+    "county": "Hennepin",
+    "lat": 44.9055,
+    "lng": -93.7447,
+    "summary": "Earlier municipal decline of KNOWiNK e-poll pads (2016). Context for later chapters from Simon’s Sensors.",
+    "pinStatus": "teaser",
+    "relatedStoryIds": []
+  }
+]
