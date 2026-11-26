@@ -24,6 +24,11 @@ npm run dev
 
 Open the local URL Vite prints (usually http://localhost:5173).
 
+**Map vs Slideshow:** use the **Map / Slideshow** toggle at the top center, or open with a query:
+
+- Map (default): `/?view=map`
+- Plain slideshow of the same chapters: `/?view=slideshow`
+
 ```bash
 npm run build    # production bundle in dist/
 npm run preview  # serve the build locally
