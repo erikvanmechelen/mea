@@ -1,0 +1,67 @@
+[
+  {
+    "id": "minnesota",
+    "name": "Minnesota",
+    "kind": "state",
+    "lat": 46.0,
+    "lng": -94.5,
+    "summary": "Statewide civic education focus for elections 2026–2030. Metro and surrounding counties first.",
+    "pinStatus": "planned",
+    "relatedStoryIds": ["oak-grove-paper-rosters"]
+  },
+  {
+    "id": "anoka-county",
+    "name": "Anoka County",
+    "kind": "county",
+    "county": "Anoka",
+    "lat": 45.27,
+    "lng": -93.24,
+    "summary": "County elections administration; site of the 2024 paper-roster felony-threat letter and ACEIT local work.",
+    "pinStatus": "story",
+    "relatedStoryIds": ["oak-grove-paper-rosters"]
+  },
+  {
+    "id": "oak-grove",
+    "name": "Oak Grove",
+    "kind": "city",
+    "county": "Anoka",
+    "lat": 45.3408,
+    "lng": -93.3269,
+    "summary": "Pilot story: council chose paper check-in rosters; county pushback; court clarity in A26-0910.",
+    "pinStatus": "story",
+    "relatedStoryIds": ["oak-grove-paper-rosters"]
+  },
+  {
+    "id": "ramsey-mn",
+    "name": "Ramsey",
+    "kind": "city",
+    "county": "Anoka",
+    "lat": 45.2611,
+    "lng": -93.45,
+    "summary": "Canceled electronic poll-pad agreement after the 2024 election (teaser). Pre-cancel Anoka–Ramsey poll-pad use agreement dated 2018.",
+    "pinStatus": "teaser",
+    "relatedStoryIds": ["oak-grove-paper-rosters"]
+  },
+  {
+    "id": "st-bonifacius",
+    "name": "St. Bonifacius",
+    "kind": "city",
+    "county": "Hennepin",
+    "lat": 44.9055,
+    "lng": -93.7447,
+    "summary": "2016: declined e-poll pads after demo concerns and stayed on paper (Simon’s Sensors / Weible). Teaser for related-place history.",
+    "pinStatus": "teaser",
+    "relatedStoryIds": []
+  },
+  {
+    "id": "linwood-twp",
+    "name": "Linwood Township",
+    "kind": "township",
+    "county": "Anoka",
+    "lat": 45.35,
+    "lng": -93.1,
+    "summary": "Res. 2026-07 asserts municipal roster authority; followed through on paper in 2026 (teaser).",
+    "pinStatus": "teaser",
+    "relatedStoryIds": ["oak-grove-paper-rosters"]
+  }
+]
